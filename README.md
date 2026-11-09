@@ -14,7 +14,7 @@ Código que gera o site **ajuda.communicare.com.br** (tutoriais, Novidades e Map
 ## Publicação
 
 Todo push no `main` roda o GitHub Action `Publicar Central de Ajuda`: gera o site e publica no projeto `central-ajuda` do Cloudflare Pages.
-Segredos do repositório: `CLOUDFLARE_API_TOKEN` (permissão Cloudflare Pages: Edit) e `CLOUDFLARE_ACCOUNT_ID`.
+Segredo do repositório: `CLOUDFLARE_API_TOKEN` (permissão Cloudflare Pages: Edit). O ID da conta está no próprio workflow.
 
 ## Rodar localmente
 
