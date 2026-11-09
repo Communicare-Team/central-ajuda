@@ -1,0 +1,551 @@
+[
+ {
+  "path": "Sala de espera",
+  "d": "/sala-espera",
+  "comp": "SalaEsperaComponent",
+  "tabs": []
+ },
+ {
+  "path": "Sala multi",
+  "d": "/sala-multi",
+  "comp": "SalaMultiComponent",
+  "tabs": []
+ },
+ {
+  "path": "Agenda",
+  "d": "/agenda",
+  "comp": "AgendaComponent",
+  "tabs": []
+ },
+ {
+  "path": "Pacientes",
+  "d": "/pacientes",
+  "comp": "PacientesComponent",
+  "tabs": []
+ },
+ {
+  "path": "Teleinterconsulta",
+  "d": "/teleinterconsulta/agenda",
+  "comp": "?",
+  "tabs": []
+ },
+ {
+  "path": "Conta",
+  "d": "/conta",
+  "comp": "?",
+  "tabs": []
+ },
+ {
+  "path": "Conta › Assinatura",
+  "d": "/assinatura/nova",
+  "comp": "NovaComponent",
+  "tabs": [
+   "Plano",
+   "Plano",
+   "Conversas"
+  ]
+ },
+ {
+  "path": "Conta › Contratante",
+  "d": "/conta/contratante",
+  "comp": "ContratanteComponent",
+  "tabs": []
+ },
+ {
+  "path": "Conta › Faturas",
+  "d": "/assinatura/faturas",
+  "comp": "FaturasComponent",
+  "tabs": []
+ },
+ {
+  "path": "Conta › Clínicas",
+  "d": "/conta/clinicas",
+  "comp": "ClinicasComponent",
+  "tabs": []
+ },
+ {
+  "path": "Conta › Usuários",
+  "d": "/conta/usuarios",
+  "comp": "UsuariosComponent",
+  "tabs": [
+   "Ativos",
+   "Inativos"
+  ]
+ },
+ {
+  "path": "Conta › Agendadores",
+  "d": "/conta/agendadores",
+  "comp": "SchedulersComponent",
+  "tabs": [
+   "Agendadores",
+   "Unidades"
+  ]
+ },
+ {
+  "path": "Conta › Times",
+  "d": "/conta/times",
+  "comp": "EquipesComponent",
+  "tabs": []
+ },
+ {
+  "path": "Whatsapp › Integração (Legado)",
+  "d": "/conta/whatsapp/integracao",
+  "comp": "IntegracoesComponent",
+  "tabs": []
+ },
+ {
+  "path": "Whatsapp › Templates",
+  "d": "/conta/whatsapp/template",
+  "comp": "WhatsappTemplateComponent",
+  "tabs": []
+ },
+ {
+  "path": "Whatsapp › Disparos",
+  "d": "/conta/whatsapp/disparos-automatizados",
+  "comp": "DisparoMensagensComponent",
+  "tabs": []
+ },
+ {
+  "path": "Whatsapp › Relatório de Envios",
+  "d": "/conta/whatsapp/relatorio",
+  "comp": "WhatsappRelatorioComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro",
+  "d": "/financeiro",
+  "comp": "?",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Asaas › Dados cadastrais",
+  "d": "/conta/notas-fiscais/dados-cadastrais",
+  "comp": "DadosCadastraisNotaFiscalComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Asaas › Cobranças › Formas de recebimento",
+  "d": "/conta/formas-recebimento-online",
+  "comp": "ListaRecebimentoComponent",
+  "tabs": [
+   "Ativos",
+   "Inativos"
+  ]
+ },
+ {
+  "path": "Financeiro › Asaas › Cobranças › Regras",
+  "d": "/conta/regras-utilizacao",
+  "comp": "RegrasUtilizacaoComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Asaas › Notas fiscais › Serviços",
+  "d": "/conta/notas-fiscais/servicos",
+  "comp": "ServicosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Asaas › Notas fiscais › Relatórios",
+  "d": "/conta/notas-fiscais",
+  "comp": "NotasFiscaisComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Asaas › Pagamentos",
+  "d": "/conta/pagamentos",
+  "comp": "PagamentosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Receitas e despesas",
+  "d": "/formasrecebimento",
+  "comp": "?",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Contas",
+  "d": "/conta/contas",
+  "comp": "ContasComponent",
+  "tabs": [
+   "Ativos",
+   "Inativos"
+  ]
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Categorias",
+  "d": "/conta/categorias",
+  "comp": "ListaCategoriasComponent",
+  "tabs": [
+   "{{ tab }}"
+  ]
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Extrato",
+  "d": "/conta/extrato",
+  "comp": "ExtratoComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Contas a pagar e receber",
+  "d": "/conta/agendamentos",
+  "comp": "AgendamentosComponent",
+  "tabs": [
+   "Pagamentos",
+   "Recebimentos"
+  ]
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Formas de recebimento",
+  "d": "/conta/formasrecebimento",
+  "comp": "ListaRecebimentoComponent",
+  "tabs": [
+   "Ativos",
+   "Inativos"
+  ]
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Fluxo de caixa",
+  "d": "/conta/fluxo-caixa",
+  "comp": "FluxoCaixaComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Centros de custo",
+  "d": "/conta/centros-custo",
+  "comp": "CentroCustoComponent",
+  "tabs": [
+   "Ativos",
+   "Inativos"
+  ]
+ },
+ {
+  "path": "Financeiro › Faturamento TISS › Guias TISS",
+  "d": "/tiss/lista-tiss",
+  "comp": "ListaTissComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Faturamento TISS › Administrar lotes",
+  "d": "/tiss/administrar-lotes",
+  "comp": "AdministrarLotesComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › Descontos",
+  "d": "/conta/vouchers",
+  "comp": "VouchersComponent",
+  "tabs": [
+   "Vouchers",
+   "Ativos",
+   "Inativos",
+   "Relatório",
+   "Campanhas",
+   "Ativos",
+   "Inativos"
+  ]
+ },
+ {
+  "path": "Financeiro › Pacotes",
+  "d": "/personalizacao/pacotes",
+  "comp": "PacotesComponent",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › P. online (legado)",
+  "d": "/pagamento-online",
+  "comp": "?",
+  "tabs": []
+ },
+ {
+  "path": "Financeiro › P. online (legado) › Dados cadastrais",
+  "d": "/conta/recebimento",
+  "comp": "RecebimentoOnlineComponent",
+  "tabs": []
+ },
+ {
+  "path": "Gestão de cuidados › Lista de cuidados",
+  "d": "/cuidados",
+  "comp": "CuidadosComponent",
+  "tabs": [
+   "Ativos",
+   "Cuidados Individuais",
+   "{{\n                          prog.controls.grupo.value\n                            ? getProgramName(\n                                prog.controls.programa.value,\n                                prog.controls.grupo.value\n                              )\n                            : 'Novo Programa'\n                        }}",
+   "Inativos",
+   "Cuidados Individuais",
+   "Programas"
+  ]
+ },
+ {
+  "path": "Gestão de cuidados › Programas",
+  "d": "/gestao-cuidados/programas",
+  "comp": "ProgramasComponent",
+  "tabs": [
+   "Ativos",
+   "Inativos"
+  ]
+ },
+ {
+  "path": "Gestão de cuidados › Riscos",
+  "d": "/clinica/riscos",
+  "comp": "RiscosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Gestão de cuidados › Relatórios › Gestão de riscos",
+  "d": "/gestao-cuidados/relatorio-riscos",
+  "comp": "GestaoRiscosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Gestão de cuidados › Relatórios › Clínico",
+  "d": "/relatorios/clinico",
+  "comp": "ClinicoComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Horários",
+  "d": "/personalizacao/horarios",
+  "comp": "EditarHorariosComponent",
+  "tabs": [
+   "Ativos",
+   "Inativos",
+   "Gestão de Horas"
+  ]
+ },
+ {
+  "path": "Configurações › Bloqueios",
+  "d": "/personalizacao/bloqueios",
+  "comp": "EditarBloqueiosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Convênios",
+  "d": "/clinica/convenios",
+  "comp": "ConveniosComponent",
+  "tabs": [
+   "Ativos",
+   "Inativos"
+  ]
+ },
+ {
+  "path": "Configurações › Mat Med",
+  "d": "/clinica/catalogo-itens",
+  "comp": "CatalogoItensComponent",
+  "tabs": [
+   "Catálogo",
+   "Estoque",
+   "Kits",
+   "Fornecedores",
+   "Movimentações"
+  ]
+ },
+ {
+  "path": "Configurações › Procedimentos",
+  "d": "/clinica/procedimentos",
+  "comp": "ProcedimentosComponent",
+  "tabs": [
+   "Procedimento",
+   "Favoritos"
+  ]
+ },
+ {
+  "path": "Configurações › Formulários personalizados",
+  "d": "/personalizacao/formularios-personalizados",
+  "comp": "CamposPersonalizadosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Configurar SOAP",
+  "d": "/personalizacao/formularios-personalizados/visualizar-soap",
+  "comp": "VisualizarSoapComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Impressos (cabeçalho)",
+  "d": "/clinica/impressos",
+  "comp": "ImpressosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Agenda online",
+  "d": "/conta/agendaonline",
+  "comp": "AgendaonlineComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Mensageria",
+  "d": "/conta/courier",
+  "comp": "CourierComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Integrações",
+  "d": "/conta/webhooks",
+  "comp": "WebhooksComponent",
+  "tabs": [
+   "Webhooks",
+   "Logs de envio"
+  ]
+ },
+ {
+  "path": "Configurações › Integrações › Configurações gerais",
+  "d": "/conta/configuracoes-integracoes",
+  "comp": "ConfiguracoesIntegracoesComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Integrações › Webhooks",
+  "d": "/conta/webhooks",
+  "comp": "WebhooksComponent",
+  "tabs": [
+   "Webhooks",
+   "Logs de envio"
+  ]
+ },
+ {
+  "path": "Configurações › Teleconsulta",
+  "d": "/conta/teleconsultation",
+  "comp": "TeleconsultationComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Modelos › Formulários",
+  "d": "/clinica/formularios",
+  "comp": "FormulariosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Modelos › SOAP",
+  "d": "/clinica/soap",
+  "comp": "SoapComponent",
+  "tabs": [
+   "{{ tab }}"
+  ]
+ },
+ {
+  "path": "Configurações › Modelos › Teleinterconsulta",
+  "d": "/clinica/modelo-teleinterconsulta",
+  "comp": "ModeloInterteleconsultaComponent",
+  "tabs": []
+ },
+ {
+  "path": "Configurações › Etapas pré-atendimento",
+  "d": "/clinica/pre-attendance-stage",
+  "comp": "PreAttendanceStageComponent",
+  "tabs": [
+   "{{ tab.name }}"
+  ]
+ },
+ {
+  "path": "Configurações › Desfechos",
+  "d": "/clinica/desfechos",
+  "comp": "ClinicalOutcomeComponent",
+  "tabs": [
+   "{{ tab.name }}"
+  ]
+ },
+ {
+  "path": "Configurações › Gestão do NPS",
+  "d": "/clinica/controle-pesquisas",
+  "comp": "ControlePesquisasComponent",
+  "tabs": []
+ },
+ {
+  "path": "Personalização › Meus horários",
+  "d": "/personalizacao/MeusHorarios",
+  "comp": "HorariosComponent",
+  "tabs": [
+   "Ativos",
+   "Inativos",
+   "Sugestões de Horário",
+   "Demonstrativos"
+  ]
+ },
+ {
+  "path": "Personalização › Meus bloqueios",
+  "d": "/personalizacao/MeusBloqueios",
+  "comp": "BloqueiosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Personalização › Meus procedimentos",
+  "d": "/personalizacao/procedimentos",
+  "comp": "ProcedimentosComponent",
+  "tabs": [
+   "Procedimento",
+   "Favoritos"
+  ]
+ },
+ {
+  "path": "Personalização › Meus modelos › SOAP",
+  "d": "/personalizacao/soap",
+  "comp": "SoapComponent",
+  "tabs": [
+   "{{ tab }}"
+  ]
+ },
+ {
+  "path": "Personalização › Meus impressos (rodapé)",
+  "d": "/personalizacao/impressos",
+  "comp": "ImpressosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Personalização › Minha conta Asaas › Dados cadastrais",
+  "d": "/personalizacao/conta-asaas/dados-cadastrais",
+  "comp": "ContaAsaasComponent",
+  "tabs": []
+ },
+ {
+  "path": "Personalização › Minha conta Asaas › Notas fiscais › Serviços",
+  "d": "/personalizacao/conta-asaas/notas-fiscais/servicos",
+  "comp": "ServicosComponent",
+  "tabs": []
+ },
+ {
+  "path": "Relatórios › Administrativo",
+  "d": "/relatorios/administrativo",
+  "comp": "AdministrativoComponent",
+  "tabs": [
+   "Agendamentos e atendimentos",
+   "Geral"
+  ]
+ },
+ {
+  "path": "Relatórios › Financeiro",
+  "d": "/relatorios/financeiro",
+  "comp": "FinanceiroComponent",
+  "tabs": [
+   "Financeiro",
+   "Financeiro (legado)"
+  ]
+ },
+ {
+  "path": "Relatórios › Teleinterconsulta",
+  "d": "/relatorios/teleinterconsulta",
+  "comp": "InterteleconsultationReportComponent",
+  "tabs": []
+ },
+ {
+  "path": "Dashboard",
+  "d": "/dashboard",
+  "comp": "DashboardComponent",
+  "tabs": [
+   "Perfil populacional",
+   "Ativação e Engajamento",
+   "Dados assistenciais",
+   "Nível Assistencial",
+   "Cuidados de Saúde",
+   "Linhas de cuidados",
+   "NPS",
+   "Metas contratuais",
+   "Formulários"
+  ]
+ },
+ {
+  "path": "Filas",
+  "d": "/filas",
+  "comp": "?",
+  "tabs": []
+ }
+]

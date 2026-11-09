@@ -1,0 +1,476 @@
+{
+ "atualizado": "2026-11-01",
+ "legenda": {
+  "Todos": "qualquer usuário da clínica",
+  "Gestor": "administrador da clínica, administrador da conta ou dono. Outros usuários veem o item, mas recebem um aviso de que não têm permissão",
+  "Não restrito": "bloqueado para usuários marcados como restritos",
+  "Dono ou administrador da conta": "o grupo Conta só aparece para essas pessoas"
+ },
+ "notas_grupo": {
+  "Conta": "Grupo visível apenas para o dono ou o administrador da conta.",
+  "Financeiro": "Grupo visível apenas para gestores. Há dois itens \"Formas de recebimento\": um em Asaas › Cobranças e outro em Receitas e despesas.",
+  "Whatsapp": "O Communicare Conversas não fica no menu lateral: quem tem acesso entra pelo botão verde de Conversas no topo da tela.",
+  "Personalização": "Configurações é o que o gestor define para a clínica. Personalização é o que cada profissional ajusta para si."
+ },
+ "condicionais": {
+  "Conta › Importar agendamentos": "só em contas com integração de importação de agenda ativa",
+  "Personalização › Prodoctor": "só em ambiente Unimed, para profissionais de nível superior",
+  "Conta › Faturas, Configurações › Agenda online e Configurações › Teleconsulta": "somem quando a conta não tem assinatura ativa",
+  "Contas com marca própria": "podem mostrar nomes e itens diferentes"
+ },
+ "itens": [
+  {
+   "caminho": "Sala de espera",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Sala multi",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Agenda",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Pacientes",
+   "abas": [],
+   "quem": "Não restrito"
+  },
+  {
+   "caminho": "Teleinterconsulta",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Conta › Assinatura",
+   "abas": [
+    "Plano",
+    "Conversas"
+   ],
+   "quem": "Dono ou administrador da conta"
+  },
+  {
+   "caminho": "Conta › Contratante",
+   "abas": [],
+   "quem": "Dono ou administrador da conta"
+  },
+  {
+   "caminho": "Conta › Faturas",
+   "abas": [],
+   "quem": "Dono ou administrador da conta, com assinatura ativa"
+  },
+  {
+   "caminho": "Conta › Clínicas",
+   "abas": [],
+   "quem": "Dono ou administrador da conta"
+  },
+  {
+   "caminho": "Conta › Usuários",
+   "abas": [
+    "Ativos",
+    "Inativos"
+   ],
+   "quem": "Dono ou administrador da conta"
+  },
+  {
+   "caminho": "Conta › Agendadores",
+   "abas": [
+    "Agendadores",
+    "Unidades"
+   ],
+   "quem": "Dono ou administrador da conta"
+  },
+  {
+   "caminho": "Conta › Times",
+   "abas": [],
+   "quem": "Dono ou administrador da conta"
+  },
+  {
+   "caminho": "Whatsapp › Integração (Legado)",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Whatsapp › Templates",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Whatsapp › Disparos",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Whatsapp › Relatório de Envios",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Financeiro › Asaas › Dados cadastrais",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Asaas › Cobranças › Formas de recebimento",
+   "abas": [
+    "Ativos",
+    "Inativos"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Asaas › Cobranças › Regras",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Asaas › Notas fiscais › Serviços",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Asaas › Notas fiscais › Relatórios",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Asaas › Pagamentos",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Asaas › Estornos",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Asaas › Acessar Asaas",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Receitas e despesas › Contas",
+   "abas": [
+    "Ativos",
+    "Inativos"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Receitas e despesas › Categorias",
+   "abas": [
+    "(variam conforme a configuração)"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Receitas e despesas › Extrato",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Receitas e despesas › Contas a pagar e receber",
+   "abas": [
+    "Pagamentos",
+    "Recebimentos"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Receitas e despesas › Formas de recebimento",
+   "abas": [
+    "Ativos",
+    "Inativos"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Receitas e despesas › Fluxo de caixa",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Receitas e despesas › Centros de custo",
+   "abas": [
+    "Ativos",
+    "Inativos"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Faturamento TISS › Guias TISS",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Faturamento TISS › Administrar lotes",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Descontos",
+   "abas": [
+    "Vouchers",
+    "Campanhas"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › Pacotes",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › P. online (legado) › Dados cadastrais",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Financeiro › P. online (legado) › Relatórios",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Gestão de cuidados › Lista de cuidados",
+   "abas": [
+    "Ativos",
+    "Cuidados Individuais",
+    "Inativos",
+    "Programas"
+   ],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Gestão de cuidados › Programas",
+   "abas": [
+    "Ativos",
+    "Inativos"
+   ],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Gestão de cuidados › Riscos",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Gestão de cuidados › Relatórios › Gestão de riscos",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Gestão de cuidados › Relatórios › Clínico",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Horários",
+   "abas": [
+    "Ativos",
+    "Inativos",
+    "Gestão de Horas"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Bloqueios",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Convênios",
+   "abas": [
+    "Ativos",
+    "Inativos"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Mat Med",
+   "abas": [
+    "Catálogo",
+    "Estoque",
+    "Kits",
+    "Fornecedores",
+    "Movimentações"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Procedimentos",
+   "abas": [
+    "Procedimento",
+    "Favoritos"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Formulários personalizados",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Configurar SOAP",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Impressos (cabeçalho)",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Agenda online",
+   "abas": [],
+   "quem": "Gestor, com assinatura ativa"
+  },
+  {
+   "caminho": "Configurações › Mensageria",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Integrações › Configurações gerais",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Integrações › Webhooks",
+   "abas": [
+    "Webhooks",
+    "Logs de envio"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Teleconsulta",
+   "abas": [],
+   "quem": "Gestor, com assinatura ativa"
+  },
+  {
+   "caminho": "Configurações › Modelos › Formulários",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Modelos › SOAP",
+   "abas": [
+    "(variam conforme a configuração)"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Modelos › Teleinterconsulta",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Etapas pré-atendimento",
+   "abas": [
+    "(variam conforme a configuração)"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Desfechos",
+   "abas": [
+    "(variam conforme a configuração)"
+   ],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Configurações › Gestão do NPS",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Personalização › Meus horários",
+   "abas": [
+    "Ativos",
+    "Inativos",
+    "Sugestões de Horário",
+    "Demonstrativos"
+   ],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Personalização › Meus bloqueios",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Personalização › Meus procedimentos",
+   "abas": [
+    "Procedimento",
+    "Favoritos"
+   ],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Personalização › Meus modelos › SOAP",
+   "abas": [
+    "(variam conforme a configuração)"
+   ],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Personalização › Meus impressos (rodapé)",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Personalização › Minha conta Asaas › Dados cadastrais",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Personalização › Minha conta Asaas › Notas fiscais › Serviços",
+   "abas": [],
+   "quem": "Todos"
+  },
+  {
+   "caminho": "Relatórios › Administrativo",
+   "abas": [
+    "Agendamentos e atendimentos",
+    "Geral"
+   ],
+   "quem": "Não restrito"
+  },
+  {
+   "caminho": "Relatórios › Financeiro",
+   "abas": [
+    "Financeiro",
+    "Financeiro (legado)"
+   ],
+   "quem": "Não restrito"
+  },
+  {
+   "caminho": "Relatórios › Teleinterconsulta",
+   "abas": [],
+   "quem": "Gestor"
+  },
+  {
+   "caminho": "Dashboard",
+   "abas": [
+    "Perfil populacional",
+    "Ativação e Engajamento",
+    "Dados assistenciais",
+    "Nível Assistencial",
+    "Cuidados de Saúde",
+    "Linhas de cuidados",
+    "NPS",
+    "Metas contratuais",
+    "Formulários"
+   ],
+   "quem": "Gestor ou usuário com acesso ao dashboard liberado"
+  },
+  {
+   "caminho": "Filas",
+   "abas": [],
+   "quem": "Todos"
+  }
+ ]
+}

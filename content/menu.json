@@ -1,0 +1,554 @@
+[
+ {
+  "path": "Sala de espera",
+  "depth": 1,
+  "destino": "/sala-espera",
+  "acc": ""
+ },
+ {
+  "path": "Sala multi",
+  "depth": 1,
+  "destino": "/sala-multi",
+  "acc": ""
+ },
+ {
+  "path": "Agenda",
+  "depth": 1,
+  "destino": "/agenda",
+  "acc": ""
+ },
+ {
+  "path": "Pacientes",
+  "depth": 1,
+  "destino": "/pacientes",
+  "acc": "Restrict"
+ },
+ {
+  "path": "Teleinterconsulta",
+  "depth": 1,
+  "destino": "/teleinterconsulta/agenda",
+  "acc": ""
+ },
+ {
+  "path": "Conta",
+  "depth": 1,
+  "destino": "/conta",
+  "acc": ""
+ },
+ {
+  "path": "Conta › Assinatura",
+  "depth": 2,
+  "destino": "/assinatura/nova",
+  "acc": ""
+ },
+ {
+  "path": "Conta › Contratante",
+  "depth": 2,
+  "destino": "/conta/contratante",
+  "acc": ""
+ },
+ {
+  "path": "Conta › Faturas",
+  "depth": 2,
+  "destino": "/assinatura/faturas",
+  "acc": ""
+ },
+ {
+  "path": "Conta › Clínicas",
+  "depth": 2,
+  "destino": "/conta/clinicas",
+  "acc": ""
+ },
+ {
+  "path": "Conta › Usuários",
+  "depth": 2,
+  "destino": "/conta/usuarios",
+  "acc": ""
+ },
+ {
+  "path": "Conta › Agendadores",
+  "depth": 2,
+  "destino": "conta/agendadores",
+  "acc": ""
+ },
+ {
+  "path": "Conta › Times",
+  "depth": 2,
+  "destino": "/conta/times",
+  "acc": ""
+ },
+ {
+  "path": "Whatsapp",
+  "depth": 1,
+  "destino": "",
+  "acc": ""
+ },
+ {
+  "path": "Whatsapp › Integração (Legado)",
+  "depth": 2,
+  "destino": "/conta/whatsapp/integracao",
+  "acc": ""
+ },
+ {
+  "path": "Whatsapp › Templates",
+  "depth": 2,
+  "destino": "/conta/whatsapp/template",
+  "acc": ""
+ },
+ {
+  "path": "Whatsapp › Disparos",
+  "depth": 2,
+  "destino": "/conta/whatsapp/disparos-automatizados",
+  "acc": ""
+ },
+ {
+  "path": "Whatsapp › Relatório de Envios",
+  "depth": 2,
+  "destino": "/conta/whatsapp/relatorio",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro",
+  "depth": 1,
+  "destino": "/financeiro",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Asaas",
+  "depth": 2,
+  "destino": "/",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Asaas › Dados cadastrais",
+  "depth": 3,
+  "destino": "/conta/notas-fiscais/dados-cadastrais",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Asaas › Cobranças",
+  "depth": 3,
+  "destino": "/",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Asaas › Cobranças › Formas de recebimento",
+  "depth": 4,
+  "destino": "/conta/formas-recebimento-online",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Asaas › Cobranças › Regras",
+  "depth": 4,
+  "destino": "/conta/regras-utilizacao",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Asaas › Notas fiscais",
+  "depth": 3,
+  "destino": "/",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Asaas › Notas fiscais › Serviços",
+  "depth": 4,
+  "destino": "/conta/notas-fiscais/servicos",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Asaas › Notas fiscais › Relatórios",
+  "depth": 4,
+  "destino": "/conta/notas-fiscais",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Asaas › Pagamentos",
+  "depth": 3,
+  "destino": "/conta/pagamentos",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Asaas › Acessar Asaas",
+  "depth": 3,
+  "destino": "https://www.asaas.com/login",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Receitas e despesas",
+  "depth": 2,
+  "destino": "/formasrecebimento",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Contas",
+  "depth": 3,
+  "destino": "/conta/contas",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Categorias",
+  "depth": 3,
+  "destino": "/conta/categorias",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Extrato",
+  "depth": 3,
+  "destino": "/conta/extrato",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Contas a pagar e receber",
+  "depth": 3,
+  "destino": "/conta/agendamentos",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Formas de recebimento",
+  "depth": 3,
+  "destino": "/conta/formasrecebimento",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Fluxo de caixa",
+  "depth": 3,
+  "destino": "/conta/fluxo-caixa",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Receitas e despesas › Centros de custo",
+  "depth": 3,
+  "destino": "/conta/centros-custo",
+  "acc": "Restrict"
+ },
+ {
+  "path": "Financeiro › Faturamento TISS",
+  "depth": 2,
+  "destino": "",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › Faturamento TISS › Guias TISS",
+  "depth": 3,
+  "destino": "/tiss/lista-tiss",
+  "acc": "Care"
+ },
+ {
+  "path": "Financeiro › Faturamento TISS › Administrar lotes",
+  "depth": 3,
+  "destino": "/tiss/administrar-lotes",
+  "acc": "Care"
+ },
+ {
+  "path": "Financeiro › Descontos",
+  "depth": 2,
+  "destino": "/conta/vouchers",
+  "acc": "Care"
+ },
+ {
+  "path": "Financeiro › Pacotes",
+  "depth": 2,
+  "destino": "/personalizacao/pacotes",
+  "acc": "Admin"
+ },
+ {
+  "path": "Financeiro › P. online (legado)",
+  "depth": 2,
+  "destino": "/pagamento-online",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › P. online (legado) › Dados cadastrais",
+  "depth": 3,
+  "destino": "/conta/recebimento",
+  "acc": ""
+ },
+ {
+  "path": "Financeiro › P. online (legado) › Relatórios",
+  "depth": 3,
+  "destino": "https://financeiro.communicare.com.br/app/",
+  "acc": ""
+ },
+ {
+  "path": "Gestão de cuidados",
+  "depth": 1,
+  "destino": "",
+  "acc": ""
+ },
+ {
+  "path": "Gestão de cuidados › Lista de cuidados",
+  "depth": 2,
+  "destino": "/cuidados",
+  "acc": "Care"
+ },
+ {
+  "path": "Gestão de cuidados › Programas",
+  "depth": 2,
+  "destino": "/gestao-cuidados/programas",
+  "acc": "Care"
+ },
+ {
+  "path": "Gestão de cuidados › Riscos",
+  "depth": 2,
+  "destino": "/clinica/riscos",
+  "acc": "Care"
+ },
+ {
+  "path": "Gestão de cuidados › Relatórios",
+  "depth": 2,
+  "destino": "",
+  "acc": ""
+ },
+ {
+  "path": "Gestão de cuidados › Relatórios › Gestão de riscos",
+  "depth": 3,
+  "destino": "/gestao-cuidados/relatorio-riscos",
+  "acc": "Care"
+ },
+ {
+  "path": "Gestão de cuidados › Relatórios › Clínico",
+  "depth": 3,
+  "destino": "/relatorios/clinico",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações",
+  "depth": 1,
+  "destino": "",
+  "acc": ""
+ },
+ {
+  "path": "Configurações › Horários",
+  "depth": 2,
+  "destino": "/personalizacao/horarios",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Bloqueios",
+  "depth": 2,
+  "destino": "/personalizacao/bloqueios",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Convênios",
+  "depth": 2,
+  "destino": "/clinica/convenios",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Mat Med",
+  "depth": 2,
+  "destino": "/clinica/catalogo-itens",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Procedimentos",
+  "depth": 2,
+  "destino": "/clinica/procedimentos",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Formulários personalizados",
+  "depth": 2,
+  "destino": "/personalizacao/formularios-personalizados",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Configurar SOAP",
+  "depth": 2,
+  "destino": "/personalizacao/formularios-personalizados/visualizar-soap",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Impressos (cabeçalho)",
+  "depth": 2,
+  "destino": "/clinica/impressos",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Agenda online",
+  "depth": 2,
+  "destino": "/conta/agendaonline",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Mensageria",
+  "depth": 2,
+  "destino": "/conta/courier",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Integrações",
+  "depth": 2,
+  "destino": "/conta/webhooks",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Integrações › Configurações gerais",
+  "depth": 3,
+  "destino": "/conta/configuracoes-integracoes",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Integrações › Webhooks",
+  "depth": 3,
+  "destino": "/conta/webhooks",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Teleconsulta",
+  "depth": 2,
+  "destino": "/conta/teleconsultation",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Modelos",
+  "depth": 2,
+  "destino": "",
+  "acc": ""
+ },
+ {
+  "path": "Configurações › Modelos › Formulários",
+  "depth": 3,
+  "destino": "/clinica/formularios",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Modelos › SOAP",
+  "depth": 3,
+  "destino": "/clinica/soap",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Modelos › Teleinterconsulta",
+  "depth": 3,
+  "destino": "/clinica/modelo-teleinterconsulta",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Etapas pré-atendimento",
+  "depth": 2,
+  "destino": "/clinica/pre-attendance-stage",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Desfechos",
+  "depth": 2,
+  "destino": "/clinica/desfechos",
+  "acc": "Admin"
+ },
+ {
+  "path": "Configurações › Gestão do NPS",
+  "depth": 2,
+  "destino": "/clinica/controle-pesquisas",
+  "acc": "Admin"
+ },
+ {
+  "path": "Personalização",
+  "depth": 1,
+  "destino": "",
+  "acc": ""
+ },
+ {
+  "path": "Personalização › Meus horários",
+  "depth": 2,
+  "destino": "/personalizacao/MeusHorarios",
+  "acc": ""
+ },
+ {
+  "path": "Personalização › Meus bloqueios",
+  "depth": 2,
+  "destino": "/personalizacao/MeusBloqueios",
+  "acc": ""
+ },
+ {
+  "path": "Personalização › Meus procedimentos",
+  "depth": 2,
+  "destino": "/personalizacao/procedimentos",
+  "acc": ""
+ },
+ {
+  "path": "Personalização › Meus modelos",
+  "depth": 2,
+  "destino": "",
+  "acc": ""
+ },
+ {
+  "path": "Personalização › Meus modelos › SOAP",
+  "depth": 3,
+  "destino": "/personalizacao/soap",
+  "acc": ""
+ },
+ {
+  "path": "Personalização › Meus impressos (rodapé)",
+  "depth": 2,
+  "destino": "/personalizacao/impressos",
+  "acc": ""
+ },
+ {
+  "path": "Personalização › Minha conta Asaas",
+  "depth": 2,
+  "destino": "/",
+  "acc": ""
+ },
+ {
+  "path": "Personalização › Minha conta Asaas › Dados cadastrais",
+  "depth": 3,
+  "destino": "/personalizacao/conta-asaas/dados-cadastrais",
+  "acc": ""
+ },
+ {
+  "path": "Personalização › Minha conta Asaas › Notas fiscais",
+  "depth": 3,
+  "destino": "/",
+  "acc": ""
+ },
+ {
+  "path": "Personalização › Minha conta Asaas › Notas fiscais › Serviços",
+  "depth": 4,
+  "destino": "/personalizacao/conta-asaas/notas-fiscais/servicos",
+  "acc": ""
+ },
+ {
+  "path": "Relatórios",
+  "depth": 1,
+  "destino": "",
+  "acc": ""
+ },
+ {
+  "path": "Relatórios › Administrativo",
+  "depth": 2,
+  "destino": "/relatorios/administrativo",
+  "acc": "Restrict"
+ },
+ {
+  "path": "Relatórios › Financeiro",
+  "depth": 2,
+  "destino": "/relatorios/financeiro",
+  "acc": "Restrict"
+ },
+ {
+  "path": "Relatórios › Teleinterconsulta",
+  "depth": 2,
+  "destino": "/relatorios/teleinterconsulta",
+  "acc": "Admin"
+ },
+ {
+  "path": "Dashboard",
+  "depth": 1,
+  "destino": "/dashboard",
+  "acc": "Admin"
+ },
+ {
+  "path": "Admin",
+  "depth": 1,
+  "destino": "",
+  "acc": ""
+ },
+ {
+  "path": "Filas",
+  "depth": 1,
+  "destino": "/filas",
+  "acc": ""
+ }
+]
