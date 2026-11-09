@@ -1,7 +1,7 @@
 [
   {
     "edicao": "2026-11-03",
-    "destaque": "Sprint 172: campanhas inativas para consulta, Clube de Benefícios e cancelamento de nota fiscal",
+    "destaque": "Campanhas inativas para consulta, Clube de Benefícios e cancelamento de nota fiscal",
     "modulo": "Financeiro",
     "tipo": "Melhoria",
     "titulo": "Campanhas inativas disponíveis para consulta",
@@ -67,7 +67,7 @@
   },
   {
     "edicao": "2026-10-27",
-    "destaque": "Sprint 171: histórico de estornos, vários anexos de exame de uma vez e nome social nas mensagens",
+    "destaque": "Histórico de estornos, vários anexos de exame de uma vez e nome social nas mensagens",
     "modulo": "Financeiro",
     "tipo": "Novidade",
     "titulo": "Histórico de estornos",
@@ -166,7 +166,7 @@
   },
   {
     "edicao": "2026-10-20",
-    "destaque": "Sprint 170: aviso de cancelamento por WhatsApp, área de Integrações e busca de pacientes mais rápida",
+    "destaque": "Aviso de cancelamento por WhatsApp, área de Integrações e busca de pacientes mais rápida",
     "modulo": "Mensagens",
     "tipo": "Novidade",
     "titulo": "Aviso por WhatsApp quando a consulta é cancelada",
@@ -298,7 +298,7 @@
   },
   {
     "edicao": "2026-10-13",
-    "destaque": "Sprint 169: documentos da consulta por e-mail, CBO para nível técnico e Filas mais ágeis",
+    "destaque": "Documentos da consulta por e-mail, CBO para nível técnico e Filas mais ágeis",
     "modulo": "Agenda",
     "tipo": "Novidade",
     "titulo": "Documentos da consulta por e-mail",
@@ -375,7 +375,7 @@
   },
   {
     "edicao": "2026-10-06",
-    "destaque": "Sprint 168: reservas para consulta assistida, edição de bloqueios e telas mais rápidas",
+    "destaque": "Reservas para consulta assistida, edição de bloqueios e telas mais rápidas",
     "modulo": "Agenda",
     "tipo": "Novidade",
     "titulo": "Reservas para consulta assistida",
