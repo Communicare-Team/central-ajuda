@@ -23,6 +23,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           python build.py
+          echo "$GITHUB_SHA $(date -u +%Y-%m-%dT%H:%M:%SZ)" > dist/versao.txt
 
       - name: Publicar no Cloudflare Pages (projeto central-ajuda)
         uses: cloudflare/wrangler-action@v3
