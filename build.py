@@ -367,6 +367,10 @@ def build_mapa():
     (d / "index.html").write_text(pagina("Mapa do sistema", corpo, 1, "Onde fica cada função no menu da Communicare", "mapa-do-menu/"), encoding="utf-8")
 
 
+# Rótulo exibido para cada tipo do database Novidades (Heitor, 09/11: "Ajuste" aparece como "Correção").
+ROTULO_TIPO = {"Ajuste": "Correção"}
+
+
 def build_changelog():
     itens = json.loads((CONTENT / "novidades.json").read_text(encoding="utf-8"))
     itens = [i for i in itens if i.get("status") == "Publicado"]
@@ -393,8 +397,8 @@ def build_changelog():
         blocos = ""
         for mod, ms in por_mod.items():
             li = "".join(
-                f"<div class='novidade'><h3>{esc(m['titulo'])} <span class='tipo'>{esc(m.get('tipo',''))}</span></h3><p>{esc(m['texto'])}</p>"
-                + (f"<a href='{esc(m['tutorial'])}'>Ver tutorial</a>" if m.get("tutorial") else "") + "</div>" for m in ms)
+                f"<div class='novidade'><h3>{esc(m['titulo'])} <span class='tipo'>{esc(ROTULO_TIPO.get(m.get('tipo',''), m.get('tipo','')))}</span></h3><p>{esc(m['texto'])}</p>"
+                + (f"<a href='{esc(m['tutorial'])}'>Ver tutorial</a>" if (m.get("tutorial") or "").startswith(SITE_URL) else "") + "</div>" for m in ms)
             blocos += f"<section><h2>{esc(mod)}</h2>{li}</section>"
         de = base / ed
         de.mkdir()
