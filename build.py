@@ -410,6 +410,37 @@ def build_changelog():
     corpo = f"""<div class="miolo estreito"><nav class="trilha"><a href="../">Início</a></nav>
 <h1>Novidades de produto</h1><p class="sub">O que mudou na Communicare, semana a semana.</p>{lista}</div>"""
     (base / "index.html").write_text(pagina("Novidades", corpo, 1, "Novidades de produto da Communicare", "changelog/"), encoding="utf-8")
+    build_novidades_app(edicoes)
+
+
+# Tipo no arquivo lido pelo modal do app (DCC-7588): Novidade e Melhoria → "novidade".
+TIPO_APP = {"Novidade": "novidade", "Melhoria": "novidade", "Desempenho": "desempenho", "Ajuste": "ajuste"}
+
+
+def build_novidades_app(edicoes):
+    """Gera /novidades/index.json e /novidades/AAAA-MM-DD.json, lidos pelo modal de Novidades do app.
+
+    Só entram edições com resumo para o modal (a partir de 10/11/2026); as anteriores ficam só na página.
+    O _headers libera a leitura pelo app (CORS) e evita cache longo.
+    """
+    pasta = DIST / "novidades"
+    pasta.mkdir()
+    datas = []
+    for ed in sorted(edicoes, reverse=True):
+        its = sorted(edicoes[ed], key=lambda i: i.get("ordem", 99))
+        if not any(i.get("resumo") for i in its):
+            continue
+        destaque = next((i["destaque"] for i in its if i.get("destaque")), its[0]["titulo"])
+        dados = {"edicao": ed, "destaque": destaque, "itens": [
+            {"tipo": TIPO_APP.get(i.get("tipo"), "novidade"), "modulo": i["modulo"], "titulo": i["titulo"],
+             "resumo": i.get("resumo") or i["texto"], "texto": i["texto"],
+             "tutorial": i["tutorial"] if (i.get("tutorial") or "").startswith(SITE_URL) else None}
+            for i in its]}
+        (pasta / f"{ed}.json").write_text(json.dumps(dados, ensure_ascii=False, indent=2), encoding="utf-8")
+        datas.append(ed)
+    (pasta / "index.json").write_text(json.dumps({"ultima": datas[0] if datas else None, "edicoes": datas},
+                                                 ensure_ascii=False, indent=2), encoding="utf-8")
+    (DIST / "_headers").write_text("/novidades/*\n  Access-Control-Allow-Origin: *\n  Cache-Control: public, max-age=300\n", encoding="utf-8")
 
 
 def gerar_previa():
