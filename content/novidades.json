@@ -1,5 +1,77 @@
 [
   {
+    "edicao": "2026-11-10",
+    "destaque": "Chat com o suporte dentro do sistema, convite para o primeiro acesso à agenda online e relatório de Problemas abertos mais rápido",
+    "modulo": "Outros",
+    "tipo": "Novidade",
+    "titulo": "Chat com o suporte dentro do sistema",
+    "resumo": "O botão de ajuda agora abre um chat com o suporte dentro do sistema, em vez do WhatsApp, e guarda o histórico das conversas.",
+    "texto": "O botão no canto inferior esquerdo da tela agora abre um chat com a equipe de suporte da Communicare dentro do próprio sistema, em vez de levar para o WhatsApp. Você tira dúvidas sem sair da tela em que está trabalhando, e o histórico das conversas fica salvo para consultar depois.",
+    "tutorial": null,
+    "status": "Publicado",
+    "ordem": 1
+  },
+  {
+    "edicao": "2026-11-10",
+    "destaque": null,
+    "modulo": "Relatórios",
+    "tipo": "Desempenho",
+    "titulo": "Relatório de Problemas abertos mais rápido",
+    "resumo": "O relatório de Problemas abertos gera e exporta mais rápido, mesmo em períodos longos.",
+    "texto": "O relatório de Problemas abertos (Gestão de cuidados › Relatórios › Clínico) ficou mais rápido para gerar e para exportar a planilha, mesmo em períodos de vários anos. Antes, consultas longas podiam levar vários minutos em cada etapa. Isso facilita acompanhar a evolução dos pacientes ao longo do tempo.",
+    "tutorial": null,
+    "status": "Publicado",
+    "ordem": 2
+  },
+  {
+    "edicao": "2026-11-10",
+    "destaque": null,
+    "modulo": "Agenda",
+    "tipo": "Ajuste",
+    "titulo": "Valor do agendamento mantido após mudar o preço",
+    "resumo": "Agendamentos já marcados mantêm o valor do dia da marcação quando o preço do procedimento muda.",
+    "texto": "Ao alterar o valor de um procedimento, as telas do agendamento e do recebimento passavam a mostrar o valor novo também em agendamentos já marcados, diferente do relatório financeiro. Corrigimos: agendamentos já marcados mantêm o valor do dia da marcação, e o valor novo vale só para os próximos. Se quiser cobrar o valor novo em um agendamento antigo, basta editar o valor naquele agendamento.",
+    "tutorial": null,
+    "status": "Publicado",
+    "ordem": 3
+  },
+  {
+    "edicao": "2026-11-10",
+    "destaque": null,
+    "modulo": "Agenda online",
+    "tipo": "Ajuste",
+    "titulo": "Primeiro acesso do paciente à agenda online",
+    "resumo": "O paciente cadastrado pela clínica recebe um convite por e-mail para criar a senha da agenda online.",
+    "texto": "Para clínicas que cadastram pacientes pelo perfil de agendador: o paciente cadastrado pela clínica não conseguia criar o próprio acesso à agenda online, porque o sistema dizia que o usuário já existia e pedia uma senha que ele nunca tinha criado. Agora ele recebe por e-mail um convite com o botão \"Criar minha senha\" (válido por 7 dias), e quem ainda não tem senha vê no login a orientação para criá-la pelo \"Esqueci minha senha\".",
+    "tutorial": null,
+    "status": "Publicado",
+    "ordem": 4
+  },
+  {
+    "edicao": "2026-11-10",
+    "destaque": null,
+    "modulo": "Filas",
+    "tipo": "Ajuste",
+    "titulo": "Faixa de idade das Filas em todos os acessos",
+    "resumo": "A faixa de idade das filas passa a valer em todos os caminhos de entrada, inclusive link direto e WhatsApp.",
+    "texto": "Para clínicas que usam filas de pronto atendimento com faixa de idade: a faixa configurada só escondia a fila da lista, e por outros caminhos (link direto, escolha da fila antes do login ou WhatsApp) pacientes fora da idade conseguiam entrar e pagar. Agora a idade é conferida em todos os caminhos; fora da faixa, o paciente vê um aviso para escolher outra fila e o botão de pagar não aparece.",
+    "tutorial": null,
+    "status": "Publicado",
+    "ordem": 5
+  },
+  {
+    "edicao": "2026-11-10",
+    "destaque": null,
+    "modulo": "Relatórios",
+    "tipo": "Ajuste",
+    "titulo": "Repasse correto no relatório financeiro (legado)",
+    "resumo": "O relatório financeiro (legado) calcula o repasse respeitando a regra de desconto de cada procedimento.",
+    "texto": "No relatório financeiro (legado), procedimentos configurados para \"Não abater\" o desconto do paciente ainda descontavam esse valor do repasse do profissional, e pagamentos parcelados com procedimento associado podiam gerar repasse negativo. Corrigimos: o relatório respeita a opção \"Desconto para pacientes\" do cadastro do procedimento, e no parcelado o procedimento associado é dividido entre as parcelas.",
+    "tutorial": null,
+    "status": "Publicado",
+    "ordem": 6
+  },
+  {
     "edicao": "2026-11-03",
     "destaque": "Campanhas inativas para consulta, Clube de Benefícios e cancelamento de nota fiscal",
     "modulo": "Financeiro",
@@ -8,7 +80,8 @@
     "texto": "Em Financeiro › Descontos › Campanhas, a aba de inativas ganhou o botão Visualizar, que abre a campanha encerrada com todos os dados e o histórico de utilização, só para consulta, sem edição.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 1
+    "ordem": 1,
+    "resumo": null
   },
   {
     "edicao": "2026-11-03",
@@ -19,7 +92,8 @@
     "texto": "Ao exportar a planilha em Dashboard › Formulários, aparece uma nova coluna, ao lado do time de saúde, com o nome do profissional que salvou cada formulário.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 2
+    "ordem": 2,
+    "resumo": null
   },
   {
     "edicao": "2026-11-03",
@@ -30,7 +104,8 @@
     "texto": "Com o Clube de Benefícios habilitado, os administradores passam a ver o menu do clube, a carteirinha do paciente pode ser conferida pelo QR Code sem login e os termos do clube ficam visíveis antes da assinatura.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 3
+    "ordem": 3,
+    "resumo": null
   },
   {
     "edicao": "2026-11-03",
@@ -41,7 +116,8 @@
     "texto": "Depois que as prefeituras passaram a usar o portal da NFS-e Nacional, não era possível cancelar a nota pela Communicare: era preciso cancelar direto no portal e refazer a nota. O cancelamento pela Communicare voltou a funcionar: a nota fica como Cancelada no sistema e, se o portal recusar (por exemplo, fora do prazo legal), aparece uma mensagem explicando o motivo.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 5
+    "ordem": 5,
+    "resumo": null
   },
   {
     "edicao": "2026-11-03",
@@ -52,7 +128,8 @@
     "texto": "Uma atualização do WhatsApp feita pela Meta passou a cortar, no iPhone, os links de formulário de pré-atendimento, de documento e de pagamento, e o paciente não conseguia abrir a página. Corrigimos: os links novos chegam inteiros e clicáveis, e os antigos continuam funcionando.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 6
+    "ordem": 6,
+    "resumo": null
   },
   {
     "edicao": "2026-11-03",
@@ -63,7 +140,8 @@
     "texto": "Em agendamentos de consulta por convênio com um procedimento associado (por exemplo, consulta com bioimpedância), o sistema só oferecia a guia de consulta. Agora o botão da guia SADT aparece nesses agendamentos, e a guia é emitida com o procedimento associado.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 7
+    "ordem": 7,
+    "resumo": null
   },
   {
     "edicao": "2026-10-27",
@@ -74,7 +152,8 @@
     "texto": "Uma nova tela no Financeiro reúne os estornos feitos, sem precisar entrar na plataforma do banco. Dá para buscar por nome completo ou CPF do paciente, período e situação, e ver o valor pago, o valor estornado, quem pediu, o motivo, a situação (solicitado, confirmado ou com falha) e o comprovante, quando houver. O acesso segue a mesma permissão de quem pode fazer estornos.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 1
+    "ordem": 1,
+    "resumo": null
   },
   {
     "edicao": "2026-10-27",
@@ -85,7 +164,8 @@
     "texto": "Na tela de resultados de exames do atendimento, você seleciona e anexa vários arquivos de uma só vez, em vez de um por um. Também dá para arrastar uma imagem do WhatsApp Web direto para a janela de anexo, sem baixar antes.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 2
+    "ordem": 2,
+    "resumo": null
   },
   {
     "edicao": "2026-10-27",
@@ -96,7 +176,8 @@
     "texto": "O Cartão Nacional de Saúde (CNS) do paciente pode ser inserido nos modelos de documento como dado automático, puxado do cadastro, em Personalização › Meus modelos. Se o paciente não tiver CNS cadastrado, o documento mostra \"não informado\".",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 3
+    "ordem": 3,
+    "resumo": null
   },
   {
     "edicao": "2026-10-27",
@@ -107,7 +188,8 @@
     "texto": "Quando o paciente tem nome social cadastrado, as mensagens automáticas (WhatsApp, SMS e e-mail) passam a usar esse nome, respeitando como a pessoa prefere ser chamada. Vale para todos os tipos de mensagem, sem precisar mudar nenhum modelo; sem nome social, continua o nome do cadastro.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 4
+    "ordem": 4,
+    "resumo": null
   },
   {
     "edicao": "2026-10-27",
@@ -118,7 +200,8 @@
     "texto": "No Clube de Benefícios, a assinatura só é ativada depois que o pagamento é confirmado, por Pix ou cartão, e fechar a tela sem pagar não cria assinatura. O paciente passa a receber o aviso das próximas mensalidades, e quem paga por Pix também é vinculado automaticamente ao convênio do clube, como já acontecia no cartão.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 5
+    "ordem": 5,
+    "resumo": null
   },
   {
     "edicao": "2026-10-27",
@@ -129,7 +212,8 @@
     "texto": "Uma atualização do WhatsApp feita pela Meta passou a cortar os links enviados nas mensagens, e o link da teleconsulta chegava incompleto para o paciente. Corrigimos, e o link volta a chegar inteiro e clicável.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 8
+    "ordem": 8,
+    "resumo": null
   },
   {
     "edicao": "2026-10-27",
@@ -140,7 +224,8 @@
     "texto": "Em cidades que já adotaram o novo modelo de nota fiscal de serviço da Reforma Tributária, a prefeitura recusava a nota porque as informações de IBS e CBS não eram enviadas. Agora o sistema envia esses dados automaticamente na emissão, e a nota volta a ser aceita.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 10
+    "ordem": 10,
+    "resumo": null
   },
   {
     "edicao": "2026-10-27",
@@ -151,7 +236,8 @@
     "texto": "No lançamento de pagamento pela Sala Multi, ao remover um procedimento que não foi realizado, o botão Concluir sumia e não dava para finalizar o pagamento. Agora o botão continua visível depois de remover ou adicionar procedimentos, e o pagamento é registrado com o valor certo.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 11
+    "ordem": 11,
+    "resumo": null
   },
   {
     "edicao": "2026-10-27",
@@ -162,7 +248,8 @@
     "texto": "Quando a clínica trocava a conexão do WhatsApp no Conversas (por exemplo, da não oficial para a oficial), as mensagens automáticas já programadas, como a confirmação de consulta, davam erro, e o botão Reenviar também falhava. Agora, ao trocar a conexão, as mensagens das consultas dos próximos 7 dias são recriadas automaticamente pela conexão nova, e o Reenviar passa a usar a conexão atual.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 12
+    "ordem": 12,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -173,7 +260,8 @@
     "texto": "Em Conta › Disparos de mensagem há dois novos gatilhos para avisar o paciente pelo WhatsApp quando o agendamento é cancelado: um que deixa os encaixes de fora e outro que inclui os encaixes. A mensagem sai minutos, horas ou dias depois do cancelamento, seja ele feito pela clínica, pelo paciente ou por integração, e só para agendamentos que estavam confirmados. Disponível para quem tem a integração de WhatsApp ativa.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 1
+    "ordem": 1,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -184,7 +272,8 @@
     "texto": "Os modelos de mensagens automáticas ganharam um novo dado dinâmico com o dia da semana do agendamento (ex.: \"08/10/2026, quinta-feira\"). Isso ajuda o paciente a conferir a data e evita que ele compareça no dia errado.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 2
+    "ordem": 2,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -195,7 +284,8 @@
     "texto": "Em Conta › Disparo de mensagens, você define quando a mensagem sai em minutos, horas ou dias, antes ou depois do evento (ex.: \"30 minutos antes da consulta\", \"1 dia depois do atendimento\"). Nos disparos de atendimento finalizado, cadastro e falta, a opção deixou de ficar presa em \"horas depois\", e o campo Gatilho ganhou busca.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 3
+    "ordem": 3,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -206,7 +296,8 @@
     "texto": "Em Configurações › Integrações, o dono ou o administrador da conta gera e consulta o token de integração e acessa a documentação das integrações, sem depender do nosso suporte. Os demais usuários não veem esse menu.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 4
+    "ordem": 4,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -217,7 +308,8 @@
     "texto": "A importação de pacientes por planilha passa a aceitar o número do Cartão Nacional de Saúde (CNS), que já entra preenchido no cadastro de cada paciente importado.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 5
+    "ordem": 5,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -228,7 +320,8 @@
     "texto": "Em Relatórios › Administrativo, aba Agendamento e atendimento, aparece a coluna CNS com o número do Cartão Nacional de Saúde do paciente, também na planilha exportada. Pacientes sem o CNS no cadastro aparecem com \"-\".",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 6
+    "ordem": 6,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -239,7 +332,8 @@
     "texto": "No Communicare Conversas, as orientações para conectar o WhatsApp oficial e as mensagens de erro durante a conexão ficaram mais claras, para você saber o que fazer em cada etapa.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 7
+    "ordem": 7,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -250,7 +344,8 @@
     "texto": "O Communicare Conversas agora pode ser pago por boleto, que também aceita Pix, além de cartão e Pix Automático. O módulo é liberado na hora da contratação, e a tela mostra o aviso de pagamento pendente, com o botão Pagar agora, até o boleto ser quitado.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 8
+    "ordem": 8,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -261,7 +356,8 @@
     "texto": "A busca de pacientes por nome, nome social e CPF, na tela de pacientes e na agenda, ficou bem mais rápida, principalmente em clínicas com muitos cadastros. Em um dos casos medidos, o tempo caiu de cerca de 14 segundos para menos de 1, com os mesmos resultados.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 9
+    "ordem": 9,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -272,7 +368,8 @@
     "texto": "Alguns agendamentos finalizados apareciam na agenda, na sala de espera e nos relatórios, mas não no percurso assistencial da folha de rosto do paciente. Agora eles voltam a aparecer ali também.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 10
+    "ordem": 10,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -283,7 +380,8 @@
     "texto": "A barra de rolagem da lista de anexos do paciente não funcionava. Voltou a funcionar, e todos os arquivos ficam acessíveis.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 11
+    "ordem": 11,
+    "resumo": null
   },
   {
     "edicao": "2026-10-20",
@@ -294,7 +392,8 @@
     "texto": "Para atender à nova exigência fiscal (NT-007), as notas emitidas pela Communicare passam a informar a situação tributária de PIS/COFINS. Clínicas fora do Simples Nacional escolhem essa situação na configuração de nota fiscal, com orientação da contabilidade; sem isso, a emissão mostra uma mensagem explicando o que preencher. Para quem é do Simples Nacional, nada muda.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 15
+    "ordem": 15,
+    "resumo": null
   },
   {
     "edicao": "2026-10-13",
@@ -305,7 +404,8 @@
     "texto": "Na busca de agendamentos, a equipe administrativa pode enviar ao paciente, por e-mail, os documentos emitidos na consulta, sem ter acesso ao conteúdo desses documentos. Assim a recepção atende o pedido de segunda via e o sigilo do que foi emitido é preservado.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 1
+    "ordem": 1,
+    "resumo": null
   },
   {
     "edicao": "2026-10-13",
@@ -316,7 +416,8 @@
     "texto": "O campo CBO (Classificação Brasileira de Ocupações), que já existia para os profissionais de nível superior, agora aparece também para os de nível técnico, nas configurações do usuário. Com isso, todos os profissionais podem ter a ocupação registrada no cadastro.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 2
+    "ordem": 2,
+    "resumo": null
   },
   {
     "edicao": "2026-10-13",
@@ -327,7 +428,8 @@
     "texto": "Nas Filas, um novo botão permite silenciar o aviso de entrada de pacientes, para quem prefere acompanhar a chegada só pela tela.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 3
+    "ordem": 3,
+    "resumo": null
   },
   {
     "edicao": "2026-10-13",
@@ -338,7 +440,8 @@
     "texto": "Corrigimos a lentidão ao abrir o histórico de atendimentos do paciente, que agora carrega mais rápido.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 4
+    "ordem": 4,
+    "resumo": null
   },
   {
     "edicao": "2026-10-13",
@@ -349,7 +452,8 @@
     "texto": "Na agenda online, a lista de procedimentos, particulares e de convênio, aparece mais rápido para o paciente na hora de escolher o que vai agendar.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 5
+    "ordem": 5,
+    "resumo": null
   },
   {
     "edicao": "2026-10-13",
@@ -360,7 +464,8 @@
     "texto": "Chamar o próximo paciente nas Filas ficou mais rápido, com menos espera entre o clique e a chamada.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 6
+    "ordem": 6,
+    "resumo": null
   },
   {
     "edicao": "2026-10-13",
@@ -371,7 +476,8 @@
     "texto": "No percurso assistencial, o botão de compartilhar pedidos de exame, em Emitir documento, não funcionava. Voltou a funcionar.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 8
+    "ordem": 8,
+    "resumo": null
   },
   {
     "edicao": "2026-10-06",
@@ -382,7 +488,8 @@
     "texto": "Para clínicas que usam a funcionalidade de agendadores: agora é possível reservar horários da agenda para consultas assistidas, aquelas marcadas pelo agendador da unidade. As reservas são criadas em Configurações › Horários. Na agenda, os horários reservados ganham contorno e etiqueta próprios, a agenda online respeita as reservas e, na sala de espera, o atendimento aparece identificado com a unidade.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 1
+    "ordem": 1,
+    "resumo": null
   },
   {
     "edicao": "2026-10-06",
@@ -393,7 +500,8 @@
     "texto": "O atalho do menu Agenda ganhou o botão de editar bloqueios, para você ajustar bloqueios de horário já criados com menos cliques.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 2
+    "ordem": 2,
+    "resumo": null
   },
   {
     "edicao": "2026-10-06",
@@ -404,7 +512,8 @@
     "texto": "A lista de pacientes carrega mais rápido quando você aplica filtros. Otimizamos a busca por trás dessa tela, e os resultados continuam os mesmos.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 3
+    "ordem": 3,
+    "resumo": null
   },
   {
     "edicao": "2026-10-06",
@@ -415,7 +524,8 @@
     "texto": "A tela de procedimentos ficou mais leve: eliminamos consultas repetidas que o sistema fazia ao abri-la, e ela passou a carregar mais rápido.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 4
+    "ordem": 4,
+    "resumo": null
   },
   {
     "edicao": "2026-10-06",
@@ -426,7 +536,8 @@
     "texto": "Em alguns casos, depois de salvar uma alteração no agendamento, o paciente deixava de aparecer na lista. Corrigimos, e agora o paciente continua visível normalmente após a edição.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 5
+    "ordem": 5,
+    "resumo": null
   },
   {
     "edicao": "2026-10-06",
@@ -437,7 +548,8 @@
     "texto": "Ao imprimir um documento emitido pela Communicare a partir da folha de rosto do paciente, aparecia uma tela em branco. A impressão voltou a funcionar normalmente.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 6
+    "ordem": 6,
+    "resumo": null
   },
   {
     "edicao": "2026-10-06",
@@ -448,7 +560,8 @@
     "texto": "Ao unificar dois cadastros do mesmo paciente, os encaminhamentos não eram levados para o prontuário que permanece. Agora eles são transferidos junto com o restante do histórico.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 7
+    "ordem": 7,
+    "resumo": null
   },
   {
     "edicao": "2026-10-06",
@@ -459,7 +572,8 @@
     "texto": "Agendamentos com procedimento de convênio faturado por TISS estavam entrando no pagamento online, como se fossem particulares. Agora esses agendamentos ficam fora do pagamento online.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 8
+    "ordem": 8,
+    "resumo": null
   },
   {
     "edicao": "2026-10-06",
@@ -470,7 +584,8 @@
     "texto": "Os modelos de mensagem novos só apareciam na tela depois de aprovados. Agora aparecem assim que são cadastrados, ainda enquanto aguardam a aprovação.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 11
+    "ordem": 11,
+    "resumo": null
   },
   {
     "edicao": "2026-10-06",
@@ -481,6 +596,7 @@
     "texto": "A exportação de atendimentos deixava de fora os atendimentos feitos por profissionais que já foram inativados. Agora eles entram na planilha, e o histórico exportado fica completo.",
     "tutorial": null,
     "status": "Publicado",
-    "ordem": 13
+    "ordem": 13,
+    "resumo": null
   }
 ]
